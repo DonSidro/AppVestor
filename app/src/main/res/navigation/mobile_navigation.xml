@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.calldorado.appvestor.activities.ui.account.AccountSettingsFragment"
+        android:label="@string/account_settings"
+        tools:layout="@layout/fragment_account_settings" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.calldorado.appvestor.activities.ui.investment.InvestmentFragment"
+        android:label="@string/my_investment"
+        tools:layout="@layout/fragment_investment" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.calldorado.appvestor.activities.ui.payment.PaymentFragment"
+        android:label="@string/payment"
+        tools:layout="@layout/fragment_payment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.calldorado.appvestor.activities.ui.SettingsFragment"
+        android:label="SettingsFragment" >
+    </fragment>
+
+
+</navigation>

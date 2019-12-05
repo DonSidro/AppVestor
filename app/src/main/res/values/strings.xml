@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AppVestor</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="my_investment">My Investment</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="payment">Payment</string>
+    <string name="investment">Investment</string>
+    <string name="investment_date">Investment Date</string>
+    <string name="revenue_to_date">Revenue to Date</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="configure">Configure</string>
+</resources>
